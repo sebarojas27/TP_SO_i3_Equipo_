@@ -1,0 +1,10 @@
+Respuesta de BETA:
+a- El master queda con todos los cambios integrados. Después del punto 5 queda con datos.txt con las modificaciones de ALFA y BETA, y con los archivos CPUAlfa.txt, CPUBeta.txt y CPUGamma.txt que se crearon en la rama Vargas. Después  del punto 9 se le suma beta.txt que contiene el nombre, apellido, IP y hora de los 3 integrantes (ALFA, BETA y GAMMA).
+
+b- Si. Haciendo git fetch y git log se pueden ver todos los commits de las otras ramas. Y haciendo git checkout a cada rama (Vargas, Rojas) y con git pull se pueden ver los archivos que se subio cada uno. Al final en el master quedan todos.
+
+c- git checkout master
+git pull origin master
+git fetch origin Vargas
+git merge origin/Vargas (o git merge Vargas si ya la tengo local)
+git push origin master
