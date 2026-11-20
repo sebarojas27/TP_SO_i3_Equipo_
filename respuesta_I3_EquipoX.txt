@@ -8,3 +8,21 @@ git pull origin master
 git fetch origin Vargas
 git merge origin/Vargas (o git merge Vargas si ya la tengo local)
 git push origin master
+
+Responde GAMMA:
+d- ¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+No. Después del merge del punto 5, el que queda actualizado es el master, que tiene los datos de los 3 en datos.txt, CPUAlfa.txt, CPUBeta.txt y CPUGamma.txt.
+Las ramas vargas y la de BETA quedan con los datos viejos, hasta que cada uno haga un git pull o un merge desde master a su rama. Si no lo hacen, quedan desactualizadas.
+
+e- ¿Detalle los problemas que tuvieron al hacer el merge?
+El problema fue en el archivo datos.txt, porque los 3 modificamos el mismo archivo y al hacer el merge apareció un conflicto. Hubo que abrirlo con notepad, borrar las marcas de conflicto <<<<<<< ======= >>>>>>>, dejar los datos de los 3, guardar y después hacer git add, git commit y git push para terminar el merge.
+[Si a ustedes NO les dio conflicto, borrá eso y poné: No tuvimos conflicto, el merge se hizo directo porque...]
+
+f- ¿Que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
+1. git fetch
+2. git checkout APELLIDO-DE-BETA
+3. notepad beta.txt - agregué al final mi nombre, IP y hora sin borrar lo de BETA, guardé con Ctrl + S
+4. cat beta.txt - para verificar que quedaron los datos de BETA y los míos
+5. git add beta.txt
+6. git commit -m "Agrego datos GAMMA a beta.txt"
+7. git push
