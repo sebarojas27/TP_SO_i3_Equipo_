@@ -26,3 +26,13 @@ f- ¿Que debió hacer (todos los comandos) en el punto 7 para poder hacer lo ped
 5. git add beta.txt
 6. git commit -m "Agrego datos GAMMA a beta.txt"
 7. git push
+
+G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+git fetch 
+git checkout (nombre de la rama) rojas 
+ git pull
+modifique "beta.txt"  y guardar
+git add .
+git commit -m "Alfa modifica beta.txt"
+cat beta.txt
+git push 
