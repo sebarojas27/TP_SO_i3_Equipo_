@@ -1,0 +1,11 @@
+Rojas Sebastian
+ip:192.168.0.13
+hora:15:00
+
+gamma - Enzo vargas
+ip:191.85.26.180
+hora:15:17
+
+ALFA -- imanol zavalaga 
+IP = 192.168.1.37
+hora: 15:21
