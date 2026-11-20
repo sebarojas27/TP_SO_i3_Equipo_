@@ -6,3 +6,7 @@ ALFA - Imanol Zavalaga
 
 ip:192.168.1.37
 hora: 14:37
+
+BETA - Sebastian Rojas
+192.168.0.13
+hora: 14:52
